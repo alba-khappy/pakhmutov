@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  @font-face {
+    // font-family: "Montserrat";
+    // src: url("~@/assets/fonts/Montserrat-Regular.woff") format("woff");
+    // //url("/src/assets/fonts/Montserrat-Regular.woff2") format("woff2");
+    // font-weight: 400;
+  }
+  
+  
+  $grayTextColor: #666;
+  
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  input:focus, textarea:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  body {
+    //font-family: "Montserrat", sans-serif;
+  }
+  
+  .container {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
