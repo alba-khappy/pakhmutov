@@ -73,6 +73,10 @@ export default {
   border: none;
   background-color: transparent;
   color: $grayTextColor;
+
+  &:hover {
+    color: black;
+  }
 }
 
 .header__list {
@@ -98,6 +102,10 @@ export default {
 
 .header__link {
   font-size: 11px;
+
+  &:hover {
+    color: black;
+  }
 }
 
 .header__link {

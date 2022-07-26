@@ -28,6 +28,10 @@ export default {
     color: $grayTextColor;
     font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
+
+    &:hover {
+        color:black;
+    }
 }
 
 
